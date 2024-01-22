@@ -10,7 +10,7 @@
 
 </head>
 <body>
-<di class="wrap">
+<div class="wrap">
     <div class="header">
         <div class="top_logo">
             <img class="logo" src="img/Logo.svg" alt="HODU">
@@ -29,7 +29,7 @@
         </div>
 
         <div class="top">
-<!--            <div class="txt">-->
+            <div class="top_txt">
                 <div class="top_txt1">
                     <p><strong>Lorem Ipsum is simply<br>
                         dummy text of the printing and</strong></p>
@@ -43,11 +43,12 @@
                 <div class="load_btn2">
                     <button type="button" class="load2">Download</button>
                 </div>
-<!--            </div>-->
+            </div>
+            <div class="txt_img">
+                <img class="cat_box" src="img/img_cat_png.svg" alt="박스고양이">
+            </div>
         </div>
-        <div class="txt_img">
-            <img class="cat_box" src="img/img_cat_png.svg" alt="박스고양이">
-        </div>
+
     </div>
 
     <section class="main">
@@ -81,48 +82,39 @@
                     Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown</p>
             </div>
             <div class="contents_img">
-                <ul class="list">
-                    <li class="list_li">
-                        <img class="list_img" src="img/img_1.svg" alt="">
-                    </li>
-                    <li class="list_li">
-                        <img class="list_img" src="img/img_2.svg" alt="">
-                    </li>
-                    <li class="list_li">
-                        <img class="list_img" src="img/img_3.svg" alt="">
-                    </li>
-                    <li class="list_li">
-                        <img class="list_img" src="img/img_4.svg" alt="">
-                    </li>
-                    <li class="list_li">
-                        <img class="list_img" src="img/img_5.svg" alt="">
-                    </li>
-                    <li class="list_li">
-                        <img class="list_img" src="img/img_6.svg" alt="">
-                    </li>
-                </ul>
-
+                <div class="contents_img-list">
+                    <img class="list_img" src="img/img_1.svg" alt="">
+                    <img class="list_img" src="img/img_2.svg" alt="">
+                    <img class="list_img" src="img/img_3.svg" alt="">
+                </div>
+                <div class="contents_img-list">
+                    <img class="list_img" src="img/img_4.svg" alt="">
+                    <img class="list_img" src="img/img_5.svg" alt="">
+                    <img class="list_img" src="img/img_6.svg" alt="">
+                </div>
+                    <div class="more_img_list"></div>
             </div>
+
             <div class="more_tap">
                 <div class="more_txt">
                     <p><strong>Continue exploring HODU</strong></p>
                 </div>
                 <div class="more_btn">
-                    <button type="button" class="more">Show more</button>
+                    <button id="more" type="button" class="more">Show more</button>
                 </div>
             </div>
         </div>
+        <hr class="hr_line">
     </section>
 
     <section class="contents_map">
-        <hr class="hr_line">
         <div class="map_txt1">
             <p>Where you’ll be</p>
         </div>
         <div class="map_txt2">
             <p>330, Cheomdan-ro, Jeju-si, Jeju-do, Republic of Korea</p>
         </div>
-        <div id="map" style="width:1070px;height:420px;"></div>
+        <div id="map"></div>
     </section>
 
         <section class="blog_post">
@@ -139,61 +131,48 @@
 
                 <div class="e-mail">
                     <input type="email" placeholder="Enter your e-mail address">
-                    <button type="button" class="modal_open">Subscribe</button>
+                    <button type="submit" class="modal_open">Subscribe</button>
                 </div>
+            </div>
+            <div class="back_cat">
+                <img src="img/img_footer.svg" alt="">
             </div>
         </section>
         <section>
             <div class="modal_pop">
                 <div class="modal">
                     <div class="modal_img">
-                        <img class="modal_back" src="img/modal.svg" alt="">
                         <img class="modal_cat" src="img/cat_face.svg" alt="">
-                    </div>
-                    <div class="modal_txt">
                         <p class="modal_txt1"><strong>Thank you!</strong></p>
                         <p class="modal_txt2">Lorem Ipsum is simply dummy text of the printing industry. </p>
-                    </div>
-                    <div class="modal_hidden">
                         <button type="button" class="modal_close">OK! I Love HODU</button>
                     </div>
                 </div>
-
-                <div class="back_cat">
-                    <img src="img/img_footer.svg" alt="">
-                </div>
             </div>
+
         </section>
+
 
     <section class="footer">
         <div class="footer_nav">
             <div class="logo_img">
-                <img src="img/Logo.svg" alt="">
+                <img class="footer_logo" src="img/Logo.svg" alt="">
                 <div class="icon_list">
-                    <ul>
-                        <li><img src="img/icon-blog.svg" alt="블로그"></li>
-                        <li><img src="img/icon-insta.svg" alt="인스타그램"></li>
-                        <li><img src="img/icon-facebook.svg" alt="페이스북"></li>
-                        <li><img src="img/icon-youtube.svg" alt="유튜브"></li>
+                    <ul class="footer_ul">
+                        <li class="footer_li"><img class="footer_img" src="img/icon-blog.svg" alt="블로그"></li>
+                        <li class="footer_li"><img class="footer_img" src="img/icon-insta.svg" alt="인스타그램"></li>
+                        <li class="footer_li"><img class="footer_img" src="img/icon-facebook.svg" alt="페이스북"></li>
+                        <li class="footer_li"><img class="footer_img" src="img/icon-youtube.svg" alt="유튜브"></li>
                     </ul>
                 </div>
             </div>
         </div>
     </section>
+    <a class="scroll_top" href="#"><img src="img/scroll-top-btn.svg" alt="상단이동"></a>
 </div>
 
-<script src="img.js"></script>
-
+<script type="text/javascript" src="modal.js"></script>
 <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=92c2c9fbb66e93132d098ad721a47a9d"></script>
-<script>
-    var mapContainer = document.getElementById('map'), // 지도를 표시할 div
-        mapOption = {
-            center: new kakao.maps.LatLng(33.450701, 126.570667), // 지도의 중심좌표
-            level: 3 // 지도의 확대 레벨
-        };
-
-    // 지도를 표시할 div와  지도 옵션으로  지도를 생성합니다
-    var map = new kakao.maps.Map(mapContainer, mapOption);
-</script>
+<script type="text/javascript" src="map.js"></script>
 </body>
 </html>
