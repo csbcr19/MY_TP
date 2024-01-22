@@ -135,22 +135,23 @@ html, body {
 .color_txt {
     color: #D97652;
 }
-.more_img{
-    display: flex;
+
+#more_img_list {
+    display: grid;
     justify-content: center;
+    align-items: center;
+    grid-template-columns: repeat(3, 0fr);
+    gap: 72px;
 }
-.more_img_list{
-    width: 1278px;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
-.more_img_list img {
+
+#more_img_list img {
     width: 378px;
-    margin-bottom: 30px;
+    height: 378px;
     border-radius: 30px;
     box-shadow: 10px 10px 30px lightgray;
 }
+
+
 .more_tap {
     text-align: center;
     padding: 40px;
