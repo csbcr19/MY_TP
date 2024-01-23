@@ -85,11 +85,28 @@ html, body {
     display: inline-block;
     padding-top: 110px;
 }
-.main_cat {
+.main_dog {
     height: 390px;
     border-radius: 30px;
     box-shadow: 10px 10px 30px lightgray;
 }
+.like {
+    display:block;
+    margin-top:30px;
+    opacity:0;
+    transition:0.5s all;
+
+    width: 80px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: #ff4d6d;
+    font-size: 14px;
+    font-weight: bold;
+}
+.main_img:hover .like {
+    opacity:1
+}
+
 .main_txt1 {
     font-size: 36px;
 }
