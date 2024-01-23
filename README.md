@@ -18,6 +18,6 @@ HTML, CSS, JavaScript를 활용한 웹 서비스를 구현하는 프로젝트 �
 ---
 - 버튼 hover 효과(기본 웹 페이지와 모달창 내의 버튼 효과가 다름)
 - show more 클릭 시 이미지 API 추가 반환
-- kakao map(마커 생성)
+- kakao map(마커 생성, 컨트롤 생성)
 - 모달 생성
 - scroll top 생성
