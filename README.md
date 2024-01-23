@@ -12,12 +12,13 @@ HTML, CSS, JavaScript를 활용한 웹 서비스를 구현하는 프로젝트 �
 구현 화면
 ---
 <img width="481" alt="스크린샷 2024-01-23 오전 9 27 10" src="https://github.com/csbcr19/MY_TP/assets/155497511/90896587-c892-491f-8bc7-a2bc84237984">
-<img width="481" alt="스크린샷 2024-01-23 오전 9 27 29" src="https://github.com/csbcr19/MY_TP/assets/155497511/592db3b5-fb3d-464b-b062-bc6721ed5a3b">
+<img width="481" alt="스크린샷 2024-01-23 오후 2 54 59" src="https://github.com/csbcr19/hodu-frontend/assets/155497511/5316f7cf-3c9a-447f-ac7b-623c6fa70e72">
 
 구현 기능
 ---
 - 버튼 hover 효과(기본 웹 페이지와 모달창 내의 버튼 효과가 다름)
 - show more 클릭 시 이미지 API 추가 반환
-- kakao map(마커 생성)
+- kakao map(마커 생성, 컨트롤 생성)
 - 모달 생성
 - scroll top 생성
+- 좋아요 버튼 생성(강아지 뛰는 사진에 커서 두면 버튼 나타남)
