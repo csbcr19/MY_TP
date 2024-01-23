@@ -11,8 +11,8 @@ HTML, CSS, JavaScript를 활용한 웹 서비스를 구현하는 프로젝트 �
 
 구현 화면
 ---
-<img width="481" alt="스크린샷 2024-01-23 오전 9 27 10" src="https://github.com/csbcr19/MY_TP/assets/155497511/90896587-c892-491f-8bc7-a2bc84237984">
-<img width="481" alt="스크린샷 2024-01-23 오후 2 54 59" src="https://github.com/csbcr19/hodu-frontend/assets/155497511/5316f7cf-3c9a-447f-ac7b-623c6fa70e72">
+<img width="481" alt="스크린샷 2024-01-23 오후 4 05 04" src="https://github.com/csbcr19/hodu-frontend/assets/155497511/d667e1af-c724-4070-a4e9-b9b2b2fbd053">
+<img width="481" alt="스크린샷 2024-01-23 오후 4 05 37" src="https://github.com/csbcr19/hodu-frontend/assets/155497511/d61438bc-1561-47d9-8850-d14d623177ec">
 
 구현 기능
 ---
