@@ -51,7 +51,7 @@ html, body {
 }
 .txt_img {
     display: inline-block;
-    padding: 31px 320px 0px 80px;
+    padding: 31px 600px 0px 80px;
 }
 .top_txt {
     padding-top: 120px;
@@ -67,10 +67,10 @@ html, body {
     height: 50px;
     font-size: 16px;
 }
-.cat_box {
+.dog_box {
     height: 766px;
     position: absolute;
-    top: 134px;
+    top: 170px;
 }
 
 /* --main-- */
@@ -193,6 +193,9 @@ html, body {
 .list figure:hover img {
     -webkit-transform: scale(1.3);
     transform: scale(1.3);
+}
+#tag_txt {
+    color: gray;
 }
 /* --contents 끝-- */
 
@@ -327,7 +330,7 @@ input {
     background-image: url("img/modal_bg.svg");
 }
 .modal_cat {
-    margin-top: 60px;
+    width: 200px;
 }
 .modal_txt1 {
     margin: 0;
